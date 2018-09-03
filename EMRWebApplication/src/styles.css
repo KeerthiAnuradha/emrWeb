@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+
+.alertsContainer .alertsRow .iconpanel{
+    float:left;
+    width:50px !important;
+    padding:15px;
+    text-align:center;
+    height:61px !important;
+}
+.alertsContainer .alertsRow .messagepanel{
+    float:left;
+    height:61px !important;
+    padding:20px;
+    text-align:left;
+    max-width:353px;
+    width:350px
+}
+.alertsContainer .alertsRow.error .closeicon{
+    color:white !important;
+}
+.alertsContainer .alertsRow.error .closeicon a{
+    color:white !important;
+    text-decoration:none;
+    font-size:12px
+}
+.alertsContainer .alertsRow.success .closeicon{
+    color:white!important;
+}
+.alertsContainer .alertsRow.success .closeicon a{
+    color:white !important;
+    text-decoration:none;
+    font-size:12px
+}
+.alertsContainer .alertsRow.warn .closeicon{
+    color:white !important;
+}
+.alertsContainer .alertsRow.warn .closeicon a{
+    color:white !important;
+    text-decoration:none;
+    font-size:12px
+}
+.alertsContainer{
+    position:absolute;
+    top:800px !important;
+    right:440px !important;
+}
+.alertsContainer .alertsRow{
+    margin-top:12px;
+    transition:box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    display:block;
+    position:relative;
+    box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius:2px;
+    transition:3s opacity 0 !important;
+    float: left !important;
+    clear:both;
+}
+.modal-footer{
+/* background-color: #CBE3FF !important; */
+   background-color: #8BC0FF !important;
+}
+.modal-header{
+    /* background-color: #CBE3FF !important; */
+    background-color: #8BC0FF !important;
+}
+.modal-body{
+    /* background-color: #CBE3FF !important; */
+    background-color: #8BC0FF !important;
+} 

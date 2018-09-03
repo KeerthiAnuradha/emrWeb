@@ -1,0 +1,16 @@
+{
+  "/api/authenticate": {
+    "target": "http://qaservernew.hillromvest.com",
+    "secure": true
+  },
+  "/EMR": {
+    "target": "http://qaservernew.hillromvest.com/api",
+    "secure": false
+  },
+  "/HlEngine": {
+    "target": "http://qaservernew.hillromvest.com/api",
+    "secure": false
+  }
+  
+
+}
